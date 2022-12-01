@@ -1,10 +1,10 @@
-package LR3;
-
-import LR3.arena.SetUpArena;
+package LR4and5;
 
 public class Main {
-    public static void main(String[] args) {
-        var setUpArena = new SetUpArena();
-        setUpArena.chooseBattleMode();
+
+    public static void main(String[] args)
+    {
+        Workcode workcode = new Workcode();
+        workcode.Work();
     }
 }
